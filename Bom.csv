@@ -1,1 +1,14 @@
-
+Item#,Quantity Required ,Component Description
+1,1,Custom PCB
+2,1,3D Printed Case (Top and Bottom)
+3,1,Seeed Xiao esp32-c3
+4,4,MX-Style Switches
+5,4,White blank DSA keycaps
+6,4,Through-hole 1N4148 Diodes
+7,4,M3 x 8mm screws
+8,4,M3 x 5mm x 4mm heatset inserts
+9,1,Soldering Grant
+10,1,3.3v Piezo Buzzer
+11,1,2.25in TFT Screen
+12,8,20cm Female-Female Jumper Wires
+13,1,2.54mm 8 Pin Male Header
