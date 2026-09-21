@@ -1,5 +1,5 @@
-#include <Adafruit_GFX.h> // graphics library
-#include <Adafruit_ST7789.h> // driver for the ST7789 screen
+#include <Blare.h> // graphics library
+#include <Blare.h> // driver for the ST7789 screen
 #include <SPI.h> 
 
 // Defining pins for the display, change according to your setup!!! Uses the white numbers on the ESP
@@ -14,7 +14,7 @@
 class MyST7789 : public Adafruit_ST7789 {
 public:
   MyST7789(int8_t cs, int8_t dc, int8_t mosi, int8_t sclk, int8_t rst)
-    : Adafruit_ST7789(cs, dc, mosi, sclk, rst) {}
+    : Blare_ST7789(cs, dc, mosi, sclk, rst) {}
   void setOffsets(uint8_t col, uint8_t row) {
     _colstart = _colstart2 = col;
     _rowstart = _rowstart2 = row;
